@@ -1,0 +1,11 @@
+haystack-ai
+sentence-transformers
+ollama
+requests
+pandas
+jupyter
+langchain
+langchain-huggingface
+langchain-ollama
+faiss-cpu
+beautifulsoup4
