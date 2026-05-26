@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uk-visa-rag"
+version = "0.1.0"
+description = "RAG chatbot for UK immigration rules using GOV.UK data"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "requests",
+    "pandas",
+    "beautifulsoup4",
+    "sentence-transformers",
+    "ollama",
+    "langchain",
+    "langchain-community",
+    "langchain-huggingface",
+    "langchain-ollama",
+    "faiss-cpu",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
