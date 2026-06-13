@@ -1,6 +1,6 @@
 # UK Immigration Rules RAG Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot that answers questions about UK immigration rules using official GOV.UK data. The project scrapes all 105 sections of the UK Immigration Rules via the GOV.UK Content API, chunks and embeds them, and provides a conversational Q&A interface powered by a local LLM through Ollama. It demonstrates a practical approach to building a domain-specific legal Q&A system that runs entirely on a laptop.
+A Retrieval-Augmented Generation (RAG) chatbot that answers questions about UK immigration rules using official GOV.UK data. It scrapes all 105 sections of the UK Immigration Rules via the GOV.UK Content API, chunks and embeds them, and answers questions through a local LLM served by Ollama. Everything runs on a laptop with no external API calls.
 
 ## Features
 
