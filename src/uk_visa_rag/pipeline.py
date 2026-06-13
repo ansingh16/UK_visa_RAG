@@ -2,7 +2,7 @@
 
 import logging
 from pathlib import Path
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 import pandas as pd
 from langchain.chains import ConversationalRetrievalChain

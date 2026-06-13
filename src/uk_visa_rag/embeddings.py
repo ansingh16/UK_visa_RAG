@@ -1,7 +1,7 @@
 """Embedding and vector store utilities."""
 
 from pathlib import Path
-from typing import List, Optional
+from typing import Optional
 
 import pandas as pd
 from langchain_huggingface import HuggingFaceEmbeddings
